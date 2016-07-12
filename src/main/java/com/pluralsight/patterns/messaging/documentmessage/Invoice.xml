@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<i:invoices 
+	xmlns:i="http://www.pluralsight.com/patterns/messaging/Invoice" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.pluralsight.com/patterns/messaging/Invoice Invoice.xsd ">
+	<i:invoice>
+		<i:invoiceNumber>1</i:invoiceNumber>
+		<i:patient>
+			<i:name>Homer Simpson</i:name>
+			<i:memberId>12345</i:memberId>
+		</i:patient>
+		<i:procedures>
+			<i:procedure>
+				<i:code>884</i:code>
+				<i:name>Ear cleaning</i:name>
+				<i:cost>40.00</i:cost>
+				<i:insuranceEstimate>40.00</i:insuranceEstimate>
+			</i:procedure>
+			<i:procedure>
+				<i:code>351</i:code>
+				<i:name>X-ray</i:name>
+				<i:cost>221.00</i:cost>
+				<i:insuranceEstimate>100.00</i:insuranceEstimate>
+			</i:procedure>
+		</i:procedures>
+	</i:invoice>
+	<i:invoice>
+		<i:invoiceNumber>2</i:invoiceNumber>
+		<i:patient>
+			<i:name>Bart Simpson</i:name>
+			<i:memberId>12346</i:memberId>
+		</i:patient>
+		<i:procedures>
+			<i:procedure>
+				<i:code>152</i:code>
+				<i:name>Removal of object from nose cavity</i:name>
+				<i:cost>300.00</i:cost>
+				<i:insuranceEstimate>140.00</i:insuranceEstimate>
+			</i:procedure>
+		</i:procedures>
+	</i:invoice>
+</i:invoices>

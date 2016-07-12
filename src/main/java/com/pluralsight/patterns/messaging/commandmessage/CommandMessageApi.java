@@ -4,7 +4,8 @@ import org.springframework.beans.factory.annotation.*;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * This is the API for demonstrating the execution of a command message.
+ * This is the API for demonstrating the execution of the command message
+ * pattern demo.
  * 
  * @author Michael Hoffman, Pluralsight
  *
